@@ -42,6 +42,7 @@ function App() {
     <div>
     <h2> Let 's get started yay!!!!! YES</h2>
     <NewExpense onAddExpense={addNewExpenseHandler}/>
+    {/* <Chart></Chart> */}
     <Expenses items={addedExpenses}/>
     </div>
   );
